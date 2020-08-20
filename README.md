@@ -1,2 +1,1 @@
-# dollars-demo-app
-Demo code for Dollar$
+#Simple PHP Web App for Dollar$ Demo
