@@ -9,8 +9,8 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...          
       - docker build -t dollars-demo-app:latest .
-      - docker tag dollars-demo-app:latest 251607623447.dkr.ecr.us-east-1.amazonaws.com/dollars-demo-app:latest 
-      - docker tag dollars-demo-app:latest 251607623447.dkr.ecr.us-west-2.amazonaws.com/dollars-demo-app:latest     
+      - docker tag dollars-demo-app:latest 251607623447.dkr.ecr.us-east-1.amazonaws.com/dollars-demo-web:latest 
+      - docker tag dollars-demo-app:latest 251607623447.dkr.ecr.us-west-2.amazonaws.com/dollars-demo-web:latest     
   post_build:
     commands:
       - echo Build completed on `date`
