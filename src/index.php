@@ -7,7 +7,7 @@
 
 	<body>
 		<?php
-            echo "<body style='background-color:red'>";
+            echo "<body style='background-color:black'>";
 		   $image_url='https://static.awsclint.com/dollar.jpeg';
 		?>
         <div style="display: flex; justify-content: center;">
