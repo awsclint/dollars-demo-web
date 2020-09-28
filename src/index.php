@@ -7,7 +7,7 @@
 
 	<body>
 		<?php
-       echo "<body style='background-color:black'>";
+       echo "<body style='background-color:grey'>";
 		   $image_url='https://static.awsclint.com/dollar.jpeg';
 		   $curl = curl_init();
 
